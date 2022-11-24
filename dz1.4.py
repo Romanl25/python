@@ -1,8 +1,11 @@
-print("Введите координаты точки:")
+import random
 
-x = float(input("x = "))
+x = random.randint(-100, 100) 
+print('x =', x)
 
-y = float(input("y = "))
+y = random.randint(-100, 100) 
+
+print('y =', y)
 
 if x > 0 and y > 0:
 
